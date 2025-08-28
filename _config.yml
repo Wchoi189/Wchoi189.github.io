@@ -1,0 +1,15 @@
+title: Wchoi189 Blog
+email: you@example.com
+description: >
+  A blog powered by Jekyll and the Chirpy theme.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wchoi189.github.io"
+
+remote_theme: Wchoi189/jekyll-theme-chirpy
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+markdown: kramdown
