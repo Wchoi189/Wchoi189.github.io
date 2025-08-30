@@ -50,7 +50,8 @@ Below is a concise map of the pipeline, distilled from Kim’s lecture notes.
 
 ## 3️⃣ Deep Dive: From Collection to Labeling  
 
-### 3.1 Data Collection – Methods & Ethics  
+### 3.1 Data Collection – Methods & Ethics
+
 | Method | Pros | Cons | Ethical Note |
 |--------|------|------|--------------|
 | **Direct Capture** | High control | Limited scale | Ensure informed consent |
