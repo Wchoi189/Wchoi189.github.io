@@ -44,6 +44,9 @@ jobs:
       - name: Build CSS
         run: npm run build:css
 
+      - name: Build JS
+        run: npm run build:js
+
       - name: Install dependencies
         run: |
           gem install bundler
