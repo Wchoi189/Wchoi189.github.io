@@ -2,7 +2,7 @@ name: "Build and Deploy"
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -32,6 +32,14 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+
+      - name: Build CSS
+        run: npm run build:css
 
       - name: Install dependencies
         run: |
